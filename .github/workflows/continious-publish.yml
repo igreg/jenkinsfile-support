@@ -4,8 +4,7 @@ name: continious publish
 
 on:
  push:
-    branches:
-    - test2
+    branches: [ test2 ]
   release:
     types:
     - created
