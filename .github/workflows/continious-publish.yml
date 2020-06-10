@@ -36,4 +36,4 @@ jobs:
     - name: Publish
       run: npm run deploy
       env:
-        PUBLISHER_TOKEN: $
+        VSCE_PAT: $
