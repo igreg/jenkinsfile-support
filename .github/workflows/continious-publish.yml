@@ -3,7 +3,7 @@
 name: continious publish
 
 on:
- push:
+  push:
     branches: [ test2 ]
   release:
     types:
