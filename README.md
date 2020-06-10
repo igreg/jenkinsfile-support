@@ -1,12 +1,9 @@
 # jenkinsfile-support
-![Version][version-badge]
-![CI](https://github.com/sgwozdz/jenkinsfile-support/workflows/CI/badge.svg)
-![Installs][installs-badge]
-
-[version-badge]: https://vsmarketplacebadge.apphb.com/version/ivory-lab.jenkinsfile-support.svg
-[version]: https://marketplace.visualstudio.com/items?itemName=ivory-lab.jenkinsfile-support
-[installs-badge]: https://vsmarketplacebadge.apphb.com/installs-short/ivory-lab.jenkinsfile-support.svg
-[installs]: https://marketplace.visualstudio.com/items?itemName=ivory-lab.jenkinsfile-support
+![Version](https://img.shields.io/visual-studio-marketplace/v/ivory-lab.jenkinsfile-support?style=for-the-badge)
+![Rating](https://img.shields.io/visual-studio-marketplace/r/ivory-lab.jenkinsfile-support?style=for-the-badge)
+![CI](https://img.shields.io/github/workflow/status/sgwozdz/jenkinsfile-support/CI?style=for-the-badge)
+![Installs](https://img.shields.io/visual-studio-marketplace/i/ivory-lab.jenkinsfile-support?style=for-the-badge)
+![Downloads](https://img.shields.io/visual-studio-marketplace/d/ivory-lab.jenkinsfile-support?style=for-the-badge)
 
 ## Features
 
