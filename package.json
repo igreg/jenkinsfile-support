@@ -1,88 +1,94 @@
 {
-    "name": "poe",
-    "displayName": "Poe",
-    "description": "Extension provides basic jenkinsfile support (highlighting, snippets and completion)",
-    "version": "1.2.0",
-    "license": "MIT",
-    "author": {
-        "name": "Szymon Gwóźdź",
-        "email": "szymon.gwozdz@outlook.com"
-    },
-    "bugs": {
-        "url": "https://github.com/sgwozdz/poe/issues"
-    },
-    "icon": "images/icon.png",
-    "publisher": "recode",
-    "engines": {
-        "vscode": "^1.28.0"
-    },
-    "homepage": "https://github.com/sgwozdz/poe",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/sgwozdz/poe.git"
-    },
-    "categories": [
-        "Programming Languages",
-        "Snippets"
-    ],
-    "keywords": [
-        "jenkins",
-        "jenkinsfile",
-        "poe"
-    ],
-    "activationEvents": [
-        "onLanguage:jenkinsfile"
-    ],
-    "main": "./client/out/extension",
-    "contributes": {
-        "languages": [
-            {
-                "id": "jenkinsfile",
-                "aliases": [
-                    "JenkinsFile",
-                    "Jenkins"
-                ],
-                "extensions": [
-                    ".jenkins",
-                    ".jenkinsfile"
-                ],
-                "filenames": [
-                    "jenkinsfile"
-                ],
-                "configuration": "./language-configuration.json"
-            }
+  "name": "poe",
+  "displayName": "Poe",
+  "description": "Extension provides jenkinsfile support (highlighting, snippets, completion and diagnostics)",
+  "version": "1.2.0",
+  "license": "MIT",
+  "publisher": "recode",
+  "preview": true,
+  "author": {
+    "name": "Szymon Gwóźdź",
+    "email": "szymon.gwozdz@outlook.com"
+  },
+  "bugs": {
+    "url": "https://github.com/sgwozdz/poe/issues"
+  },
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#db5c00",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "homepage": "https://github.com/sgwozdz/poe",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sgwozdz/poe.git"
+  },
+  "categories": [
+    "Programming Languages",
+    "Snippets",
+    "Linters"
+  ],
+  "keywords": [
+    "jenkins",
+    "jenkinsfile",
+    "poe"
+  ],
+  "activationEvents": [
+    "onLanguage:jenkinsfile"
+  ],
+  "main": "./client/out/extension",
+  "contributes": {
+    "languages": [
+      {
+        "id": "jenkinsfile",
+        "aliases": [
+          "JenkinsFile",
+          "Jenkins"
         ],
-        "grammars": [
-            {
-                "language": "jenkinsfile",
-                "scopeName": "source.jenkins",
-                "path": "./syntaxes/jenkinsfile.tmLanguage.json"
-            }
+        "extensions": [
+          ".jenkins",
+          ".jenkinsfile"
         ],
-        "snippets": [
-            {
-                "language": "jenkinsfile",
-                "scopeName": "source.jenkins",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    },
-    "scripts": {
-        "compile:client": "tsc -p ./client/",
-        "compile:server": "tsc -p ./server/",
-        "watch:client": "tsc -w -p ./client/",
-        "watch:server": "tsc -w -p ./server/",
-        "compile": "npm run compile:client | npm run compile:server",
-        "postinstall": "cd server && npm install && cd ../client && npm install",
-        "test": "cd client && node ./node_modules/vscode/bin/test",
-        "deploy": "vsce publish --yarn"
-    },
-    "devDependencies": {
-        "@types/chai": "4.1.7",
-        "@types/mocha": "2.2.42",
-        "@types/node": "10.12.21",
-        "chai": "4.2.0",
-        "typescript": "3.3.1",
-        "vsce": "^1.76.1"
-    }
+        "filenames": [
+          "jenkinsfile"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "jenkinsfile",
+        "scopeName": "source.jenkins",
+        "path": "./syntaxes/jenkinsfile.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "jenkinsfile",
+        "scopeName": "source.jenkins",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  },
+  "scripts": {
+    "compile:client": "tsc -p ./client/",
+    "compile:server": "tsc -p ./server/",
+    "watch:client": "tsc -w -p ./client/",
+    "watch:server": "tsc -w -p ./server/",
+    "compile": "npm run compile:client | npm run compile:server",
+    "postinstall": "cd server && npm install && cd ../client && npm install",
+    "test": "cd client && node ./node_modules/vscode/bin/test",
+    "deploy": "vsce publish --yarn"
+  },
+  "devDependencies": {
+    "@types/chai": "4.1.7",
+    "@types/mocha": "2.2.42",
+    "@types/node": "10.12.21",
+    "chai": "4.2.0",
+    "typescript": "3.3.1",
+    "vsce": "^1.76.1"
+  }
 }
