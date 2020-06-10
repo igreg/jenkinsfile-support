@@ -9,17 +9,17 @@
         "email": "szymon.gwozdz@outlook.com"
     },
     "bugs": {
-        "url": "https://github.com/sgwozdz/jenkinsfile-support/issues"
+        "url": "https://github.com/sgwozdz/poe/issues"
     },
     "icon": "images/icon.png",
-    "publisher": "ivory-lab",
+    "publisher": "recode",
     "engines": {
         "vscode": "^1.28.0"
     },
-    "homepage": "https://github.com/sgwozdz/jenkinsfile-support",
+    "homepage": "https://github.com/sgwozdz/poe",
     "repository": {
         "type": "git",
-        "url": "https://github.com/sgwozdz/jenkinsfile-support.git"
+        "url": "https://github.com/sgwozdz/poe.git"
     },
     "categories": [
         "Programming Languages",
@@ -28,7 +28,7 @@
     "keywords": [
         "jenkins",
         "jenkinsfile",
-        "jdp"
+        "poe"
     ],
     "activationEvents": [
         "onLanguage:jenkinsfile"

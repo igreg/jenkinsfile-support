@@ -1,4 +1,10 @@
-# jenkinsfile-support
+# Poe for VS Code
+![Version](https://img.shields.io/visual-studio-marketplace/v/recode.poe?style=for-the-badge)
+![Rating](https://img.shields.io/visual-studio-marketplace/r/recode.poe?style=for-the-badge)
+![CI](https://img.shields.io/github/workflow/status/sgwozdz/poe/CI?style=for-the-badge)
+![Installs](https://img.shields.io/visual-studio-marketplace/i/recode.poe?style=for-the-badge)
+![Downloads](https://img.shields.io/visual-studio-marketplace/d/recode.poe?style=for-the-badge)
+# Old JenkinsFile Support
 ![Version](https://img.shields.io/visual-studio-marketplace/v/ivory-lab.jenkinsfile-support?style=for-the-badge)
 ![Rating](https://img.shields.io/visual-studio-marketplace/r/ivory-lab.jenkinsfile-support?style=for-the-badge)
 ![CI](https://img.shields.io/github/workflow/status/sgwozdz/jenkinsfile-support/CI?style=for-the-badge)
@@ -7,12 +13,11 @@
 
 ## Features
 
-Extension gives user basic jenkinsfile support.
-
-* syntax highlighting
-* snippets
-* completion
-* diagnostics
+The extension provides some useful features for JenkinsFiles like:
+* syntax highlighting,
+* snippets,
+* completion,
+* diagnostics.
 
 ![Functionality](images/functionality.png)
 

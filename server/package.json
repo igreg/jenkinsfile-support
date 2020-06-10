@@ -3,7 +3,7 @@
 	"description": "Code extension language server",
 	"version": "1.2.0",
 	"license": "MIT",
-	"publisher": "ivory-lab",
+	"publisher": "recode",
 	"author": {
 		"name": "Szymon Gwóźdź",
 		"email": "szymon.gwozdz@outlook.com"
