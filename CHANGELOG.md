@@ -5,14 +5,15 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
-# [1.1.1] - 2020-06-10
+# [1.2.0] - 2020-06-10
+### Changed
+- extension rename, previously known as JenkinsFile Support
 
+# [1.1.1] - 2020-06-10
 ### Changed
 - move from Azure Pipelines to GitHub Actions
 
-
-# [1.1.0] - 2020-06-03
-
+# [1.1.0] - 2020-06-0
 ### Fixed
 - missing commas to snippets.json
 - false positive diagnostics

@@ -21,6 +21,9 @@ Extension gives user basic jenkinsfile support.
 
 ## Release Notes
 
+### 1.2.0
+- extension rename, previously known as JenkinsFile Support
+
 ### 1.1.1
 - move from Azure Pipelines to GitHub Actions
 
