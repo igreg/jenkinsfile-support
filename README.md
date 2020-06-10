@@ -12,7 +12,7 @@
 ![Downloads](https://img.shields.io/visual-studio-marketplace/d/ivory-lab.jenkinsfile-support?style=for-the-badge)
 
 ## Features
-
+ 
 The extension provides some useful features for JenkinsFiles like:
 * syntax highlighting,
 * snippets,
