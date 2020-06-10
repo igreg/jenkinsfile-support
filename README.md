@@ -41,3 +41,6 @@ The extension provides some useful features for JenkinsFiles like:
 - fixed debug mode
 
 ... :)
+
+
+Logo by [Jenkins project](https://jenkins.io) / [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0)
